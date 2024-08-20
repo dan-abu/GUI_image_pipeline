@@ -29,6 +29,7 @@ image by 180 degrees.
 
 Once complete, you will get pop-ups of the images and they will
 be saved in `data/cropped_image_{image_count}.jpg`.
+
 ----------------------------------------------------------------
 
 ## Method
@@ -55,6 +56,7 @@ images are cropped.
 This class's methods contain the image transformations mentioned
 above, as well as bundling an image and its data into an element
 in `Pipeline.images`'s list.
+
 ----------------------------------------------------------------
 
 ## Requirements
@@ -70,6 +72,7 @@ Once the repo's cloned and `Poetry`'s installed, run
 
 `poetry run python3 src/main.py` will create the GUI and allow
 you to start processing images.
+
 ----------------------------------------------------------------
 ## Watch outs
 
