@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "image-pipeline"
+version = "0.1.0"
+description = "Creates a GUI allowing the user to crop and transform an image."
+authors = ["Daniel Abu <99013608+dan-abu@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
